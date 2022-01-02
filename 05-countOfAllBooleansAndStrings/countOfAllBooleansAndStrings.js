@@ -6,7 +6,7 @@ function countOfAllBooleansAndStrings(arr) {
     if(arr[i] == true || arr[i] == false || arr[i] instanceof String){
        count++;
     }
-    
+  }
     return count;
   
 }
