@@ -6,6 +6,7 @@ function countOfAllBooleans(arr) {
        count++;
     }
     
+  }
     return count;
 }
   
