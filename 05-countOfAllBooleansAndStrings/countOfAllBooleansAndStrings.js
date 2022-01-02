@@ -3,7 +3,7 @@ function countOfAllBooleansAndStrings(arr) {
   
    let count = 0;
   for(let i = 0; i < arr.lenghth; i++){
-    if(arr[i] == true || arr[i] == false) || arr[i] instanceof String){
+    if(arr[i] == true || arr[i] == false || arr[i] instanceof String){
        count++;
     }
     
