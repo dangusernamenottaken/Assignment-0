@@ -20,6 +20,7 @@ class MySolution {
         end = middle - 1;
       }
     }
+    return false;
   }
 }
 
