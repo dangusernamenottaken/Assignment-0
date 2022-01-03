@@ -6,18 +6,18 @@
 
 function frequencyCounter(word) {
   // Insert code here;
-  // var frequency = {};
-  // for(var i = 0; i < word.length; i++){
-  // let letter = word.charAt(i);
-  // if(frequency[letter]){
-  // frequence[letter]++;
-  // else{
-  // frequence[letter] = 1;
-  // }
-  //}
-  // return frequency;
-  //}
-  let mapp = new Map();
+  var frequency = {};
+  for(var i = 0; i < word.length; i++){
+   let letter = word.charAt(i);
+  if(frequency[letter]){
+  frequence[letter]++;
+   else{
+   frequence[letter] = 1;
+   }
+  }
+   return frequency;
+  }
+ /* let mapp = new Map();
   for(let i = 0; i < word.length; i++){
    let letter = string.charAt(i); 
     if(!(letter in mapp)){
@@ -29,7 +29,7 @@ function frequencyCounter(word) {
     }
   }
   return mapp;
-}
+} */
 
 // Do not edit this line;
 module.exports = frequencyCounter;

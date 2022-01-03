@@ -1,8 +1,8 @@
 function greetFriend(name) {
   // Insert code here;
-  string greet = "Hello " + name;
+  let greet = "Hello, " + name + "!";
   return greet;
 }
 
 // Do not edit this line;
-module.exports = greetFriend;
+module.exports = greetFriend
