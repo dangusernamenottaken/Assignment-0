@@ -6,19 +6,20 @@
 
 function frequencyCounter(word) {
   // Insert code here;
- /* var frequency = {};
+  
+ let obj = Object.create(null);
   for(let i = 0; i < word.length; i++){
    let letter = word.charAt(i);
-  if(frequency[letter]){
-  frequence[letter]++;
+  if(obj[letter]){
+  obj[letter]++;
   }
    else{
-   frequence[letter] = 1;
+   obj[letter] = 1;
    }
   }
-   return frequency;
-  }*/
- let mapp = new Map();
+   return obj;
+  }
+/*let mapp = new Map();
   for(let i = 0; i < word.length; i++){
    let letter = word.charAt(i); 
     if(!(letter in mapp)){
@@ -31,6 +32,6 @@ function frequencyCounter(word) {
   }
   return mapp;
 } 
-
+*/
 // Do not edit this line;
 module.exports = frequencyCounter;
