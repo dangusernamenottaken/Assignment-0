@@ -2,7 +2,7 @@ function isPalindrome(word) {
   // Insert code here;
   let wordLength = word.length;
   for(let i = 0; i < (wordLength/2); i++){
-   if(word[i] !== word[wordLength-1-i){
+   if(word[i] !== word[wordLength-1-i]){
      return false; 
    }
   }
